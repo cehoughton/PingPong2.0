@@ -1,0 +1,18 @@
+PingPong method counts from one to a given number.
+input: 2    output: [1,2]
+
+
+PingPong method returns Ping for numbers divisible by 3.
+input: 3     output: [1,2,"ping"]
+
+
+PingPong method returns Pong for numbers divisible by 5.
+input: 5          output: [1,2,ping,4,pong]
+
+
+PingPong method returns Ping-Pong for numbers divisible by 15.
+input 15        output: [1,2,ping,4,pong,ping,7,8,ping, pong, 11, ping, 13,14, pingpong]
+
+
+PingPong method returns a number if not divisible by 3,5,or 15
+input: 7      output: [1,2,ping,4,pong,ping,7]
